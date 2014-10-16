@@ -9,16 +9,22 @@
     <?php include "../components/site-header.php"; ?>
 
     <main id="site-body">
-      <section id="site-content">
-        <h2>Tingimuslause</h2>
+		<section id="site-content">
+			<h2>Tingimuslause</h2>
+				<?php $number = rand(100 , 200);
+					if ($number < 150) {
+						echo "Juhuslik number {$number} on väiksem kui 150";
+					} else {
+						echo "Juhuslik number {$number} on suurem kui 150";
+					}
+				?>
+
+			<h2>Juhuslik pilt</h2>
         <!--  Sisesta siia kood -->
 
-        <h2>Juhuslik pilt</h2>
+			<h2>Kõikide piltide väljastamine</h2>
         <!--  Sisesta siia kood -->
-
-        <h2>Kõikide piltide väljastamine</h2>
-        <!--  Sisesta siia kood -->
-      </section>
+		</section>
     </main>
 
     <?php include "../components/site-footer.php"; ?>
