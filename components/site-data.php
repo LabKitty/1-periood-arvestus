@@ -28,4 +28,5 @@
       )
     )
   ;
+$site_footer = "Arvestustöö: Veronika Bondar - 16.10.2014" ;
 ?>
